@@ -1,15 +1,15 @@
 export interface TaskFormInterface {
-    configs: {
-        datatestID: string
-    }
-    data: {
-        taskData: Object
-        isEditForm: boolean
-        baseData: Object
-    }
-    callbacks: {
-        handleCreate: Function
-        handleEdit: Function
-        handleClose: Function
-    }
+  configs: {
+    datatestID: string;
+  };
+  data: {
+    taskData: any; //Object
+    isEditForm: boolean;
+    baseData: any; //Object
+  };
+  callbacks: {
+    handleCreate: Function;
+    handleEdit: Function;
+    handleClose: Function;
+  };
 }
